@@ -1,0 +1,11 @@
+/* print */
+@media print { 
+ /* Print styles go here */
+ 
+ /* Give the body a minimum width to act like a desktop viewport */
+ body { min-width: 980px; }
+ 
+ /* Hide a few other elements if necessary */
+ .social-links { display: none !important; }
+ 
+}
